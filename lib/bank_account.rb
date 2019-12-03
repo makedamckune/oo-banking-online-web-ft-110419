@@ -13,15 +13,11 @@ class BankAccount
   end 
   
   def display_balance
-    "Your balance is $#{@balance}"
+    puts "Your balance is $#{@balance}"
   end
   
   def vaild?
-  if @balance > 0 
-    puts "open"
-  else 
-    puts "closed"
-  end 
+  
  end 
 
 end
