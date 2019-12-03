@@ -16,9 +16,12 @@ class BankAccount
     "Your balance is $#{@balance}"
   end
   
+  def vaild?
   if @balance > 0 
-    
-    
+    puts "open"
+  else 
+    puts "closed"
   end 
+ end 
 
 end
